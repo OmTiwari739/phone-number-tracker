@@ -19,7 +19,7 @@ service_provider = carrier.name_for_number(service_pro, "en")
 print("Service Provider:", service_provider)
 
 # Set up OpenCageGeocode API key
-opencage_key = '9fa6367701aa4a40a3518a8aebda3fca'
+opencage_key = 'YOUR_API_KEY'
 geocoder = OpenCageGeocode(opencage_key)
 
 # Query location using the parsed location information
